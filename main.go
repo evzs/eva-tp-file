@@ -42,7 +42,7 @@ func main() {
 
 	}
 	rand.Seed(time.Now().UnixNano())
-	fmt.Println(rand.Int())
+	fmt.Println(rand.Intn(1000))
 
 	file.Close()
 	// for _, eachline := range lines {
